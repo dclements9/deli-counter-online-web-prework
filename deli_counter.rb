@@ -17,7 +17,7 @@ def take_a_number(deli_line, join_name)
 end
 
 def now_serving(deli_line)
-  puts (deli_line)
+  puts deli_line
   if deli_line.length == 0
     puts "There is nobody waiting to be served!"
   else
