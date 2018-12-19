@@ -10,6 +10,6 @@ end
 
 def take_a_number(katz_deli, join_name)
   katz_deli.pop(join_name)
-  puts "#{katz_deli.length}#{join_name}"
+  puts katz_deli.length + join_name
 
 end
