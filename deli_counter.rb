@@ -1,3 +1,4 @@
+require 'pry'
 katz_deli = []
 
 def line(deli_line)
@@ -20,6 +21,6 @@ def now_serving(deli_line)
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{deli_line.shift}."
-
+    binding.pry
   end
 end
