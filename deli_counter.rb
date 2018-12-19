@@ -14,3 +14,12 @@ def take_a_number(deli_line, join_name)
   deli_line.push(join_name)
   puts "Welcome, #{join_name}. You are number #{deli_line.length} in line."
 end
+
+def now_serving(deli_line)
+  if deli_line.length == 0
+    puts "There is nobody waiting to be served."
+  else
+    puts "Currently serving #{deli_line.shift}."
+    
+  end
+end
