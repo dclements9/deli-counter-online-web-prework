@@ -7,8 +7,8 @@ def line(katz_deli)
     line_array = []
     counter = 1
     katz_deli.each {|name| line_array << "#{counter}. #{name} "}
-    puts "The line is currently:#{line_array}"
   end
+  puts "The line is currently:#{line_array}"
 end
 
 def take_a_number(katz_deli, join_name)
