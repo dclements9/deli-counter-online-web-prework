@@ -11,6 +11,6 @@ def line(deli_line)
  end
 
 def take_a_number(deli_line, join_name)
-  deli_line.pop(join_name)
+  deli_line.push(join_name)
   puts "Welcome, #{join_name}. You are number #{deli_line.length} in line."
 end
